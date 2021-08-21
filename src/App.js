@@ -15,7 +15,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <img id="logo" src={url} alt=" " />
-        <h3>Tap any character to know more about them</h3>
+        <h3>Click any group to reveal characters and there special Jutsu</h3>
         <hr />
         <button onClick={() => onClickHandler("team")}>Team 7</button>
         <button onClick={() => onClickHandler("akatsuki")}>Akatsuki</button>
@@ -26,6 +26,7 @@ export default function App() {
               <div className="charContainer">
                 <img id="characters" src={c.image} alt=" " />
                 <p style={{ color: "white" }}>{c.name}</p>
+                <p style={{ color: "white" }}>JUTSU : {c.jutsu}</p>
               </div>
             );
           })}

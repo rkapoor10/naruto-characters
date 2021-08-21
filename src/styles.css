@@ -10,28 +10,31 @@
 #characters {
   height: 250px;
   width: 150px;
-  padding-right: 1rem;
-  border-radius: 4rem;
-}
-
-.container {
-  border: 2px solid black;
-  margin: 4rem 10rem;
-  padding: 2rem;
-  background-color: grey;
+  padding: 0.5rem;
   border-radius: 1rem;
 }
 
+.container {
+  border: 2px solid rebeccapurple;
+  width: 70%;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: ;
+  box-shadow: 5px 5px 5px gray;
+}
+
 button {
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin: 0.5rem;
   border: 3px solid white;
-
   color: white;
-  background-color: grey;
+  background-color: rebeccapurple;
+  cursor: pointer;
 }
+
 .row::after {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -44,4 +47,9 @@ button {
 .charContainer {
   text-align: center;
   display: inline-block;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: rebeccapurple;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 1rem;
 }
