@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { anime } from "./Characters.js";
+import { anime } from "./characters.js";
 
 import "./styles.css";
 var url =
